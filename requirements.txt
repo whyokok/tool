@@ -1,0 +1,18 @@
+# GUI
+PyQt6>=6.6.0
+
+# File parsing
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+python-pptx>=0.6.23
+
+# Storage
+elasticsearch>=8.11.0
+redis>=5.0.0
+
+# File monitoring
+watchdog>=3.0.0
+
+# Utils
+python-magic-bin>=0.4.14;sys_platform=='win32'
+chardet>=5.2.0
