@@ -21,3 +21,24 @@ python main.py
 
 ## 📌 配套知识点文档
 https://blog.csdn.net/qq_58358642/article/details/161058620?sharetype=blogdetail&sharerId=161058620&sharerefer=PC&sharesource=qq_58358642&spm=1011.2480.3001.8118
+
+## 📁 项目框架
+```text
+F:/tools/
+├── docker-compose.yml        # ES + Redis 容器配置
+├── requirements.txt          # Python 依赖
+├── config.py                 # 配置参数
+├── main.py                   # 程序入口
+├── core/
+│   ├── indexer.py            # 文件索引器
+│   ├── searcher.py           # 搜索器
+│   ├── file_monitor.py       # 文件监控
+│   └── file_parser/          # 文件解析器
+│       ├── pdf_parser.py
+│       ├── word_parser.py
+│       ├── ppt_parser.py
+│       └── txt_parser.py
+├── storage/
+│   ├── elasticsearch_client.py
+│   └── redis_client.py
+└── gui/
