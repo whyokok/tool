@@ -1,5 +1,10 @@
 # 桌面端全文文件检索系统
 基于 PyQt6 + Elasticsearch + Redis + Docker 的多格式文件全文检索工具
+点点star 
+点点star
+点点star
+点点star
+
 
 ## 📖 项目介绍
 本项目是基于 PyQt6 + Elasticsearch + Redis + Docker 开发的桌面端全文文件检索系统。支持 PDF、Word、PPT、TXT 多格式文档自动解析、目录递归爬取、建立全文索引；基于 Elasticsearch 实现全文检索、关键词高亮、模糊匹配、分页查询；使用 Redis 做搜索结果缓存，提升重复查询响应速度；通过 Watchdog 实现文件夹实时监控，文件新增 / 修改 / 删除自动同步更新索引；整套 Elasticsearch、Redis 中间件基于 Docker Compose 容器化一键部署，环境统一、开箱即用。前端基于 PyQt6 搭建可视化 GUI 界面，支持手动索引、全盘索引、目录监控、关键词搜索、结果预览、文件一键打开等完整功能。
